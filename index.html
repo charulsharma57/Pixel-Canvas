@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A Pixel Canvas</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Pixel Art Maker</h1>
+
+    <h2>Choose Your Grid's Size</h2>
+
+    <form id="sizePicker">
+      <p>
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" min="1" value="5">
+      </p>
+      <p>
+        Grid Width:
+        <input type="number" id="inputWeight" name="width" min="1" value="5">
+      </p>
+        <input type="submit">
+    </form>
+
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Your Canvas</h2>
+    <table id="pixelCanvas"></table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="designs.js"></script>
+
+</body>
+</body>
+</html>

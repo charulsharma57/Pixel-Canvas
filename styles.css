@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/628241/pexels-photo-628241.jpeg?cs=srgb&dl=autumn-autumn-leaves-background-628241.jpg&fm=jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h1 {
+    font-family: "Alex Brush", cursive;
+    font-size: 120px;
+    margin: 0.2em;
+    background: -webkit-linear-gradient(#ed0e28, #efaf47);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-size: 50px;
+    font-family: "Alex Brush";
+    color: #368e0f;
+ }
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 30px;
+}
+
+td {
+    width: 30px;
+}
+
+input[type=number] {
+    width: 75px;
+    padding: 6px 20px;
+    margin: 6px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+}
+
+input[type=submit] {
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+}
+
+form {
+    font-size: 25px;
+    color: #56060f;
+}
